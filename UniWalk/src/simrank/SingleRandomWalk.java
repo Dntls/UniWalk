@@ -1,5 +1,6 @@
 package simrank;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -140,7 +141,14 @@ public class SingleRandomWalk {
 		int[] samples = {500, 2500,5000,10000,20000,40000};
 //			int[] samples = {2500};
 		int[] steps = {5};
+		File logFile = new File(logPath);
+		if(!logFile.exists()){
+			logFile.createNewFile();
+		}
 		Log log = new Log(logPath);
+
+
+
 		log.info("################## Test_u_u_Top" + MyConfiguration.TOPK + " ##################");
 		Graph g = new Graph(graphInPath, MyConfiguration.u_u_count[i]);
 
@@ -154,6 +162,12 @@ public class SingleRandomWalk {
 				log.info("computation done!");
 
 				String outPath = basePath + "_Single_top" + 20 + "_step" + step + "_sample" + sample + ".txt";
+				File outFile = new File(outPath);
+
+				if(!outFile.exists()){
+					outFile.createNewFile();
+				}
+
 				log.info("u_u_graph singleRandomWalk output done!");
 				String prePath = basePath + "_Single_top" + 20 + "_step" + step + "_sample" + sample + "precision.txt";
 				// sim

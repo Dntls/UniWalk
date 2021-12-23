@@ -1,0 +1,34 @@
+
+BEGIN TIME: Thu Dec 23 16:47:09 CST 2021
+DURATION: 0.018s	=>	################## Test_u_u_Top20 ##################
+DURATION: 0.03s	=>	computation begin!
+DURATION: 0.229s	=>	第0个文件  Step:5 Sample:500TopK:20
+DURATION: 0.229s	=>	computation done!
+DURATION: 0.229s	=>	u_u_graph singleRandomWalk output done!
+DURATION: 0.624s	=>	printByOrder done!
+DURATION: 0.624s	=>	computation begin!
+DURATION: 1.394s	=>	第0个文件  Step:5 Sample:2500TopK:20
+DURATION: 1.394s	=>	computation done!
+DURATION: 1.394s	=>	u_u_graph singleRandomWalk output done!
+DURATION: 1.539s	=>	printByOrder done!
+DURATION: 1.539s	=>	computation begin!
+DURATION: 2.948s	=>	第0个文件  Step:5 Sample:5000TopK:20
+DURATION: 2.948s	=>	computation done!
+DURATION: 2.948s	=>	u_u_graph singleRandomWalk output done!
+DURATION: 3.054s	=>	printByOrder done!
+DURATION: 3.054s	=>	computation begin!
+DURATION: 5.873s	=>	第0个文件  Step:5 Sample:10000TopK:20
+DURATION: 5.873s	=>	computation done!
+DURATION: 5.873s	=>	u_u_graph singleRandomWalk output done!
+DURATION: 5.967s	=>	printByOrder done!
+DURATION: 5.967s	=>	computation begin!
+DURATION: 11.459s	=>	第0个文件  Step:5 Sample:20000TopK:20
+DURATION: 11.459s	=>	computation done!
+DURATION: 11.459s	=>	u_u_graph singleRandomWalk output done!
+DURATION: 11.542s	=>	printByOrder done!
+DURATION: 11.542s	=>	computation begin!
+DURATION: 22.562s	=>	第0个文件  Step:5 Sample:40000TopK:20
+DURATION: 22.562s	=>	computation done!
+DURATION: 22.562s	=>	u_u_graph singleRandomWalk output done!
+DURATION: 22.634s	=>	printByOrder done!
+END TIME: Thu Dec 23 16:47:32 CST 2021

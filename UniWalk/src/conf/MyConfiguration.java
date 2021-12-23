@@ -11,7 +11,8 @@ public class MyConfiguration {
 	//global setting
 	
 //	public static  String basePath = "/home/junshuai.sjs/workspace/";
-	public static  String basePath = "../";
+//	public static  String basePath = "../";
+	public static  String basePath = "";
 	public static  String basePath_in = basePath + "data/";
 	
 	public static String realdata = basePath_in; // tmp
@@ -116,29 +117,29 @@ public class MyConfiguration {
 	};
 	
 	public static  String out_u_u_graphPath_single[] = {
-		basePath_out_single+"crime.txt",
-		basePath_out_single+"arxiv.txt",
-		basePath_out_single+"youtube.txt",
-		basePath_out_single+"actors.txt",
-		basePath_out_single+"bibs.txt",
-		basePath_out_single+"dblp.txt",
-		basePath_out_single+"livej.txt",
-		basePath_out_single+"delicious.txt",
-		basePath_out_single+"powerlaw_100K.txt",
-		basePath_out_single+"powerlaw_300K.txt",
-		basePath_out_single+"powerlaw_1M.txt",
-		basePath_out_single+"powerlaw_3M.txt",
-		basePath_out_single+"powerlaw_10M.txt",
-		basePath_out_single+"powerlaw_30M.txt",
-		basePath_out_single+"powerlaw_100M.txt",
+		basePath_out_single+"crime",
+		basePath_out_single+"arxiv",
+		basePath_out_single+"youtube",
+		basePath_out_single+"actors",
+		basePath_out_single+"bibs",
+		basePath_out_single+"dblp",
+		basePath_out_single+"livej",
+		basePath_out_single+"delicious",
+		basePath_out_single+"powerlaw_100K",
+		basePath_out_single+"powerlaw_300K",
+		basePath_out_single+"powerlaw_1M",
+		basePath_out_single+"powerlaw_3M",
+		basePath_out_single+"powerlaw_10M",
+		basePath_out_single+"powerlaw_30M",
+		basePath_out_single+"powerlaw_100M",
 //		basePath_out_single+"powerlaw_300M.txt",
-		basePath_out_single+"random_100K.txt",
-		basePath_out_single+"random_300K.txt",
-		basePath_out_single+"random_1M.txt",
-		basePath_out_single+"random_3M.txt",
-		basePath_out_single+"random_10M.txt",
-		basePath_out_single+"random_30M.txt",
-		basePath_out_single+"random_100M.txt"
+		basePath_out_single+"random_100K",
+		basePath_out_single+"random_300K",
+		basePath_out_single+"random_1M",
+		basePath_out_single+"random_3M",
+		basePath_out_single+"random_10M",
+		basePath_out_single+"random_30M",
+		basePath_out_single+"random_100M"
 //		basePath_out_single+"random_300M.txt"
 		
 	};
