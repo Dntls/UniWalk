@@ -59,8 +59,9 @@ public class SimRank {
 	private void postProcess(){
 		for (int i = 0; i < COUNT; i++)
 			sim[i][i] = 0;
+
 	}
-	
+
 	public double sim(int v, int w){
 		if (v == w) return 1;
 		double result = 0;

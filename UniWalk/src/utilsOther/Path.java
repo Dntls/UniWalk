@@ -1,4 +1,4 @@
-package utils;
+package utilsOther;
 
 public class Path {
 	public double sample;
